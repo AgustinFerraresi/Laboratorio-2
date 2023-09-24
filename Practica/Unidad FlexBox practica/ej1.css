@@ -1,0 +1,33 @@
+*{
+    font-family:sans-serif;
+}
+
+#lista-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 300px;
+}
+
+#lista-menu li{
+    list-style: none;
+}
+
+#lista-menu li button{
+    background-color:rgba(123,198,199,0.8);
+    border: none;
+    border-radius: 5px;
+    padding: 30px;
+    width: 200px;
+}
+
+#lista-menu li button:hover{
+    
+    background-color:rgba(0, 242, 255, 0.8);
+    box-shadow: 1px 1px 1px 0.01px #373737;
+}
+
+#lista-menu li button:active{
+    background-color:rgba(27, 104, 107, 0.8);
+    box-shadow: 1px 1px 1px 0.01px #ffffff
+}
